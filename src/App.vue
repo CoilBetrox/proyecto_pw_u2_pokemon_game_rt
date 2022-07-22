@@ -1,14 +1,13 @@
 <template>
   
   <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-  <Buscador/>
+  <PokemonPage/>
   
 </template>
 
 <script>
 
-import Buscador from './components/Buscador.vue'
-
+import PokemonPage from '@/components/PokemonPage.vue'
 
 export default {
   name: 'App',
@@ -19,7 +18,7 @@ export default {
 
   },
   components: {
-    Buscador
+    PokemonPage
     
     
   }
