@@ -1,28 +1,26 @@
 <template>
   
   <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+  <!-- <PokemonPage/> -->
   <img alt="Vue logo" src="./assets/logo.png">
   <router-view/>
  
-  <AboutPage/>
+  <ComponentePicture/>
   
 </template>
 
 <script>
 
 import AboutPage from './modulos/pokemon/pages/AboutPage.vue'
-
+import ComponentePicture from "./modulos/pokemon/componentes/ComponentePicture.vue"
+import PokemonPage from "./modulos/pokemon/pages/PokemonPage.vue"
 
 export default {
   name: 'App',
-  data() {
-    return {
-
-    }
-
-  },
   components: {
+    PokemonPage,
     AboutPage,
+    ComponentePicture
     
   }
 }
